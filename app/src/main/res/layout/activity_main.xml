@@ -125,30 +125,62 @@
                     android:layout_weight="1"
                     android:background="#00aa00"/>
             </LinearLayout>
+
         </LinearLayout>
 
         <LinearLayout
+            android:orientation="vertical"
             android:layout_width="match_parent"
             android:layout_height="match_parent">
-
+            <TextView
+                android:text="GridView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
             <GridLayout
                 android:orientation="horizontal"
                 android:layout_width="wrap_content"
-                android:layout_height="match_parent">
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:columnCount="2"
+                android:rowCount="2">
                 <TextView
-                    android:layout_gravity="left|top"
-                    android:background="#008baa"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:background="#b6e3e2"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginBottom="20dp"
+                    android:paddingTop="5dp"
+                    android:paddingLeft="5dp"
+                    android:textSize="15sp"
                     android:text="He'd have you all unravel at"/>
                 <TextView
-                    android:background="#008baa"
-                    android:text="He'd have you all unravel at"/>
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:background="#8ededd"
+                    android:layout_marginBottom="20dp"
+                    android:paddingTop="5dp"
+                    android:paddingLeft="5dp"
+                    android:textSize="15sp"
+                    android:text="Heed not the rabble"/>
                 <TextView
-                    android:background="#008baa"
-                    android:text="He'd have you all unravel at"/>
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:background="#52b3b1"
+                    android:layout_marginRight="20dp"
+                    android:paddingTop="5dp"
+                    android:paddingLeft="5dp"
+                    android:textSize="15sp"
+                    android:text="Sound of the screams but the"/>
                 <TextView
-                    android:background="#008baa"
-                    android:text="He'd have you all unravel at"/>
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:background="#52b3b1"
+                    android:paddingTop="5dp"
+                    android:paddingLeft="5dp"
+                    android:textSize="15sp"
+                    android:text="Who scream"/>
             </GridLayout>
+
         </LinearLayout>
 
     </LinearLayout>
