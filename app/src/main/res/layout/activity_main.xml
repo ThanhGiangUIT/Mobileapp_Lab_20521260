@@ -19,14 +19,15 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
         android:orientation="vertical"
         app:layout_constraintTop_toTopOf="parent"
-        tools:layout_editor_absoluteX="121dp">
+        tools:layout_editor_absoluteX="-31dp">
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
-            android:layout_marginLeft="10dp"
+            android:layout_marginLeft="30dp"
             android:inputType="text"
             android:text="Name"
             android:textStyle="bold" />
@@ -34,7 +35,7 @@
         <EditText
             android:id="@+id/Name"
             android:layout_width="match_parent"
-            android:layout_height="40dp"
+            android:layout_height="30dp"
             android:layout_margin="10dp"
             android:background="@drawable/border"
             android:hint="Enter fulll name"></EditText>
@@ -42,7 +43,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
-            android:layout_marginLeft="10dp"
+            android:layout_marginLeft="30dp"
             android:inputType="number"
             android:text="Salary"
             android:textStyle="bold" />
@@ -50,7 +51,7 @@
         <EditText
             android:id="@+id/Salary"
             android:layout_width="match_parent"
-            android:layout_height="40dp"
+            android:layout_height="30dp"
             android:layout_margin="10dp"
             android:background="@drawable/border"
             android:hint="Please enter gross salary"></EditText>
